@@ -1,8 +1,17 @@
 import React from "react";
 import { Tabs } from "antd";
+import AudioComment from "../../../component/AudioComment";
 
 const BoardTab = () => {
-  return <>Content of Tab Pane 2</>;
+  return (
+    <>
+      <AudioComment />
+      <AudioComment />
+      <AudioComment />
+      <AudioComment />
+      <AudioComment />
+    </>
+  );
 };
 
 export default BoardTab;
