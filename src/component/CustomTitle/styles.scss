@@ -1,0 +1,20 @@
+.custion-title {
+    position: relative;
+    margin-bottom: 32px;
+    h1 {
+        color: #12d3bf;
+        font-size:50px;
+        font-weight:800;
+        line-height:75px;
+        text-transform: uppercase;
+        opacity: .3;
+    }
+    span {
+        color:#333333;
+        font-size: 32px;
+        line-height: 32px;
+        position: absolute;
+        top: 50%;
+        left: 42px;
+    }
+}

@@ -11,6 +11,7 @@ import TestExam from "./container/TestExam";
 import { Container } from "@mui/material";
 import { Button } from "antd";
 import { LeftOutlined } from "@ant-design/icons";
+import HomePage from "./pages/Home";
 
 function App() {
   const [visible, setVisible] = useState(false);
@@ -21,8 +22,8 @@ function App() {
   return (
     <div className="app">
       <Header />
-      {/* <Banner /> */}
-      <Container maxWidth="lg">
+      <HomePage/>
+      {/* <Container maxWidth="lg">
         <PageHeader
           logo="https://dl26yht2ovo33.cloudfront.net/public/admin/practice_assets/q_images/rs_s_ai.png"
           title="Repeat Sentence"
@@ -40,7 +41,7 @@ function App() {
       />
       <CustomDrawer visible={visible} setVisible={setVisible}>
         <TestExam />
-      </CustomDrawer>
+      </CustomDrawer> */}
     </div>
   );
 }
